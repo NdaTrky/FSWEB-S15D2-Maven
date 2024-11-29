@@ -40,7 +40,7 @@ public class Main {
 
         System.out.println("unassigned:" + taskData.getDifferences(unassignedTasks,taskData.getTasks("ann")));
 
-        System.out.println(("*************************************************"));
+        System.out.println(("*****************************************************"));
 
         StringSet.findUniqueWords();
     }
