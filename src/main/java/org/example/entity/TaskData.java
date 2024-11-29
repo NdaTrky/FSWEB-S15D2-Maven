@@ -11,14 +11,14 @@ public class TaskData {
     private Set<Task> unassignedTasks;
 
 
-    public TaskData(Set<Task> annsTasks, Set<Task> bobsTasks, Set<Task> carolsTask, Set<Task> unassignedTasks) {
+    public TaskData(Set<Task> annsTasks, Set<Task> bobsTasks, Set<Task> carolsTasks, Set<Task> unassignedTasks) {
         this.annsTasks = annsTasks;
         this.bobsTasks = bobsTasks;
         this.carolsTasks = carolsTasks;
         this.unassignedTasks = unassignedTasks;
     }
     public Set<Task> getTasks(String name){ //Bu metod, ilgili isme göre ilgili kişinin taskını verir.
-        switch (name){
+        switch (name) {
             case "ann":
                 return this.annsTasks;
             case "bob":
